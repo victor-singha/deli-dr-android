@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hamburger"
+            android:padding="16dp"
+            android:src="@drawable/hamburger"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/toolbarbanner"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Demo"
+            android:layout_toRightOf="@+id/hamburger" />
+        <TextView
+            android:id="@+id/driver_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="john@yahoo.com"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginTop="39dp"
+            android:layout_toRightOf="@id/hamburger"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

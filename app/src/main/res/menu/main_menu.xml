@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/allorders"
+        android:icon="@drawable/icon_all_orders"
+        android:title="All Orders" />
+    <item android:id="@+id/acceptedorders"
+        android:icon="@drawable/icon_accepted_orders"
+        android:title="Accepted Orders"/>
+
+    <item android:id="@+id/support"
+        android:icon="@drawable/icon_support"
+        android:title="Support"/>
+    <item android:id="@+id/signout"
+        android:icon="@drawable/icon_signout"
+        android:title="Sign out"/>
+
+</menu>
